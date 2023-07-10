@@ -16,6 +16,8 @@ Much as I would like to think that I've got this 100% correct, there is always t
 
 ## PCB Design
 
+![render of pcb](./Dragon32_MKII.png)
+
 The PCB layout has been added to further assist with rapid identification of components and 
 interconnections between components
 
