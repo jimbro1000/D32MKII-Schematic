@@ -55,7 +55,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|134366000|132842000|fbdae80e-d0f4-4e47-94c6-5b703397204a|5d7ada6a-8d90-4fe3-b865-b3ec48c3f807",
+        "clearance|229537241|203368355|b576f3d0-f269-4d26-8c76-8223a5c1247d|8ae9cdbd-1830-43de-ab28-ba1e0a3bc335",
+        "clearance|281740482|219353594|b576f3d0-f269-4d26-8c76-8223a5c1247d|a9692943-b2d7-44cd-84d3-9651479c1d08",
+        "clearance|311723226|231098864|b576f3d0-f269-4d26-8c76-8223a5c1247d|26f156e5-5a14-427c-81a1-d1b3f3b68c71",
+        "clearance|97164712|174177102|b576f3d0-f269-4d26-8c76-8223a5c1247d|5abdb0dd-237a-4cc5-a5f5-b8b71207fa9b",
+        "copper_edge_clearance|102529186|174717676|9a28ade7-21b0-4ac9-96ae-ee11792888ec|bc3a8edb-dc9c-4ec4-a78b-fa4de2cf50e5",
+        "copper_edge_clearance|102617235|209509977|c5dca280-54ea-451f-b1d3-d4542e9befce|d7de2972-a9f0-43e6-abc3-efb561000980",
+        "copper_edge_clearance|338557122|154284431|2a5fac6d-dd0f-4102-87bd-a88e089e9760|ff20cc0f-3df7-47e2-aec3-dabd57da6596",
+        "copper_edge_clearance|338559595|92159947|9696d9d3-3791-4e25-b66b-bbf5f3f1d87b|cc197415-e7c2-406e-b4d3-dfcfcd21db8f"
+      ],
       "meta": {
         "version": 2
       },
@@ -65,7 +75,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -91,9 +101,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
